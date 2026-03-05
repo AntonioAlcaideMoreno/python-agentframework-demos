@@ -2,6 +2,9 @@
 .azure
 *_env
 
+# VS Code settings
+.vscode/
+
 # Workflow checkpoint files
 examples/checkpoints/
 
