@@ -104,7 +104,7 @@ async def main():
 
 
 if __name__ == "__main__":
-    if "--devui" in sys.argv:
+    if "--devui" in sys.argv: # If we want to run the agent with DevUI, we need to call it using --devui flag through the terminal (example: uv run examples/agent_tools.py --devui)
         from agent_framework.devui import serve
 
         serve(entities=[agent], auto_open=True)
